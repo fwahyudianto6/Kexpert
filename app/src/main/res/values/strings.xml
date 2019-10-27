@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Kexpert</string>
+		<string name="app_name">Kexpert</string>
+		<string name="main_btn_volume">Volume - Activity</string>
+		<string name="main_volume_tv_length">Length</string>
+		<string name="main_volume_tv_width">Width</string>
+		<string name="main_volume_tv_height">Height</string>
+		<string name="main_volume_btn_calculate">Calculate</string>
+		<string name="main_volume_tv_result">Result</string>
 </resources>
