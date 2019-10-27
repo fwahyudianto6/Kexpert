@@ -6,7 +6,7 @@
 				android:layout_height="match_parent"
 				android:padding="@dimen/padding_default"
 				android:orientation="vertical"
-				tools:context=".MainActivity">
+				tools:context=".volume.MainVolumeActivity">
 
 		<TextView
 						android:layout_width="match_parent"

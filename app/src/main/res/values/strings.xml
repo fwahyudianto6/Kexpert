@@ -1,9 +1,24 @@
 <resources>
 		<string name="app_name">Kexpert</string>
 		<string name="main_btn_volume">Volume - Activity</string>
+		<string name="main_btn_intent">Simple - Intent</string>
 		<string name="main_volume_tv_length">Length</string>
 		<string name="main_volume_tv_width">Width</string>
 		<string name="main_volume_tv_height">Height</string>
 		<string name="main_volume_btn_calculate">Calculate</string>
 		<string name="main_volume_tv_result">Result</string>
+		<string name="main_intent_tv_Move">Move Activity</string>
+		<string name="main_intent_tv_MoveWithData">Move Activity With Data</string>
+		<string name="main_intent_tv_MoveWithObject">Move Activity With Object</string>
+		<string name="main_intent_tv_DialNumber">Dial a Number</string>
+		<string name="main_intent_tv_ActivityMove">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.
+				Mauris quis ultricies nisi.
+				Sed eget sem vitae nisi lobortis eleifend euismod ac ipsum. Curabitur quis leo placerat, ullamcorper lorem eu,
+				iaculis sapien.
+				Donec nec venenatis velit, tincidunt volutpat leo. Nullam vel luctus felis, commodo dignissim turpis. Ut gravida
+				tempor justo sit amet volutpat.
+				Donec venenatis ex vitae viverra egestas. Etiam ornare diam vel euismod viverra. Cras rutrum auctor libero non
+		</string>
+		<string name="main_intent_tv_ActivityDataMove">Data Received</string>
 </resources>

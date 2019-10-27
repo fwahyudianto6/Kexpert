@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.fwahyudianto.kexpert.intent.MainIntentActivity
 import com.fwahyudianto.kexpert.volume.MainVolumeActivity
 
 /**
@@ -16,7 +17,6 @@ import com.fwahyudianto.kexpert.volume.MainVolumeActivity
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
-
     // Method onCreate
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +24,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnVolume: Button = findViewById(R.id.main_btn_volume)
         btnVolume.setOnClickListener(this)
+
+        val btnIntent: Button = findViewById(R.id.main_btn_intent)
+        btnIntent.setOnClickListener(this)
     }
 
     // Implement Interface
@@ -32,6 +35,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.main_btn_volume -> {
                 val iBarVolume = Intent(this@MainActivity, MainVolumeActivity::class.java)
                 startActivity(iBarVolume)
+            }
+            R.id.main_btn_intent -> {
+                val iSimple = Intent(this@MainActivity, MainIntentActivity::class.java)
+                startActivity(iSimple)
             }
         }
     }
