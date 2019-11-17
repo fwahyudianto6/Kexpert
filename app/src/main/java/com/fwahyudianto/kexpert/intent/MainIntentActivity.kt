@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.TextView
 import com.fwahyudianto.kexpert.R
 import com.fwahyudianto.kexpert.businesslogiclayer.Person
 
@@ -17,11 +18,18 @@ import com.fwahyudianto.kexpert.businesslogiclayer.Person
  */
 
 class MainIntentActivity : AppCompatActivity(), View.OnClickListener {
+    // Declaration Variable/Object
+    private lateinit var tvResult: TextView
+
+    companion object {
+        private const val REQUEST_CODE = 100
+    }
 
     // Method onCreate
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_intent)
+        this.title = "Intent Module"
 
         val btnMoveActivity: Button = findViewById(R.id.btn_move_activity)
         btnMoveActivity.setOnClickListener(this)
@@ -34,9 +42,14 @@ class MainIntentActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnDialNumber: Button = findViewById(R.id.btn_dialnumber)
         btnDialNumber.setOnClickListener(this)
+
+        val btnMoveResult:Button = findViewById(R.id.btn_moveresult)
+        btnMoveResult.setOnClickListener(this)
+
+        tvResult = findViewById(R.id.tv_result)
     }
 
-    // Implement Interface
+    // Implement Interface - onClick
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.btn_move_activity -> {
@@ -67,8 +80,24 @@ class MainIntentActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btn_dialnumber -> {
                 val valPhoneNumber = "085747117005"
-                val valDialPhoneIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$valPhoneNumber"))
-                startActivity(valDialPhoneIntent)
+                val iIntentDialPhone = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$valPhoneNumber"))
+                startActivity(iIntentDialPhone)
+            }
+            R.id.btn_moveresult -> {
+                val iIntentResult = Intent(this@MainIntentActivity, IntentMoveResultActivity::class.java)
+                startActivityForResult(iIntentResult, REQUEST_CODE)
+            }
+        }
+    }
+
+    // Implement Interface - onActivityResult
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if (requestCode == REQUEST_CODE) {
+            if (resultCode == IntentMoveResultActivity.RESULT_CODE) {
+                val selectedValue = data?.getIntExtra(IntentMoveResultActivity.EXTRA_SELECTED_VALUE, 0)
+                tvResult.text = "Result Activity Is $selectedValue"
             }
         }
     }

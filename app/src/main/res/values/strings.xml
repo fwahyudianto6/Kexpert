@@ -11,6 +11,7 @@
 		<string name="main_intent_tv_MoveWithData">Move Activity With Data</string>
 		<string name="main_intent_tv_MoveWithObject">Move Activity With Object</string>
 		<string name="main_intent_tv_DialNumber">Dial a Number</string>
+		<string name="main_intent_tv_MoveWithResult">Move Activity With Result</string>
 		<string name="main_intent_tv_ActivityMove">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.
 				Mauris quis ultricies nisi.
@@ -21,4 +22,11 @@
 				Donec venenatis ex vitae viverra egestas. Etiam ornare diam vel euismod viverra. Cras rutrum auctor libero non
 		</string>
 		<string name="main_intent_tv_ActivityDataMove">Data Received</string>
+		<string name="main_intent_tv_ResultFromActivity">Result For Result Activity</string>
+		<string name="result_intent_tv_choose_number">Choose the number you want</string>
+		<string name="result_intent_tv_50">50</string>
+		<string name="result_intent_tv_100">100</string>
+		<string name="result_intent_tv_150">150</string>
+		<string name="result_intent_tv_200">200</string>
+		<string name="result_intent_tv_choose">Choose</string>
 </resources>
