@@ -1,13 +1,9 @@
 package com.fwahyudianto.kexpert.intent
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
 import com.fwahyudianto.kexpert.R
-import android.support.v4.app.SupportActivity
-import android.support.v4.app.SupportActivity.ExtraData
-import android.support.v4.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 
 /**
  *  This software, all associated documentation, and all copies are CONFIDENTIAL INFORMATION of Kalpawreska Teknologi Indonesia
@@ -17,7 +13,6 @@ import android.icu.lang.UCharacter.GraphemeClusterBreak.T
  */
 
 class IntentMoveDataActivity : AppCompatActivity() {
-
     // Declaration Variable/Object
     companion object {
         const val strExtraName = "extra_name"

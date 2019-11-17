@@ -1,11 +1,13 @@
 package com.fwahyudianto.kexpert.intent
 
 import android.content.Intent
+import android.net.Uri
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import com.fwahyudianto.kexpert.R
+import com.fwahyudianto.kexpert.businesslogiclayer.Person
 
 /**
  *  This software, all associated documentation, and all copies are CONFIDENTIAL INFORMATION of Kalpawreska Teknologi Indonesia
@@ -26,6 +28,12 @@ class MainIntentActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnMoveDataActivity: Button = findViewById(R.id.btn_move_activitydata)
         btnMoveDataActivity.setOnClickListener(this)
+
+        val btnMoveObjectActivity: Button = findViewById(R.id.btn_moveactivityobject)
+        btnMoveObjectActivity.setOnClickListener(this)
+
+        val btnDialNumber: Button = findViewById(R.id.btn_dialnumber)
+        btnDialNumber.setOnClickListener(this)
     }
 
     // Implement Interface
@@ -33,6 +41,7 @@ class MainIntentActivity : AppCompatActivity(), View.OnClickListener {
         when (v?.id) {
             R.id.btn_move_activity -> {
                 val iIntentMove = Intent(this@MainIntentActivity, IntentMoveActivity::class.java)
+                //  start Activity
                 startActivity(iIntentMove)
             }
             R.id.btn_move_activitydata -> {
@@ -42,6 +51,24 @@ class MainIntentActivity : AppCompatActivity(), View.OnClickListener {
                 iIntentMoveData.putExtra(IntentMoveDataActivity.strExtraNik, "3302262511920001")
                 iIntentMoveData.putExtra(IntentMoveDataActivity.strExtraAge, 27)
                 startActivity(iIntentMoveData)
+            }
+            R.id.btn_moveactivityobject -> {
+                //  Set Value on Person Object
+                val oDeveloper = Person(
+                    "Fajar Wahyudianto",
+                    27,
+                    "fwahyudi06@gmail.com",
+                    "Bekasi"
+                )
+                val iIntentMoveObject = Intent(this@MainIntentActivity, IntentMoveObjectActivity::class.java)
+                //  Set Value to Send Other Activity
+                iIntentMoveObject.putExtra(IntentMoveObjectActivity.oExtraPerson, oDeveloper)
+                startActivity(iIntentMoveObject)
+            }
+            R.id.btn_dialnumber -> {
+                val valPhoneNumber = "085747117005"
+                val valDialPhoneIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$valPhoneNumber"))
+                startActivity(valDialPhoneIntent)
             }
         }
     }
