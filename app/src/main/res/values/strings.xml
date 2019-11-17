@@ -16,7 +16,9 @@
 		<string name="main_intent_tv_ActivityDataMove">Data Received</string>
 		<string name="main_intent_tv_ResultFromActivity">Result For Result Activity</string>
 		<string name="main_fm_tv_Title">Fragment Home</string>
+		<string name="category_fm_tv_Title">Fragment Category</string>
 		<string name="main_fm_btn_Category">Category</string>
+		<string name="category_main_fm_btn_Lifestyle">Lifestyle</string>
 		<string name="move_intent_tv_result">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.
 				Mauris quis ultricies nisi.

@@ -2,11 +2,11 @@ package com.fwahyudianto.kexpert.fragment
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+
 import com.fwahyudianto.kexpert.R
 
 /**
@@ -16,33 +16,27 @@ import com.fwahyudianto.kexpert.R
  *  Email 	: fwahyudi06@gmail.com
  */
 
-class MainFragment : Fragment(), View.OnClickListener {
+class CategoryFragment : Fragment(), View.OnClickListener {
     // Method onCreateView
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main, container, false)
+        return inflater.inflate(R.layout.fragment_category, container, false)
     }
 
     // Implement Interface - onViewCreated
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val btnCategory: Button = view.findViewById(R.id.fm_btn_category)
-        btnCategory.setOnClickListener(this)
+        val btnLifstyle: Button = view.findViewById(R.id.category_fm_btn_lifestyle)
+        btnLifstyle.setOnClickListener(this)
     }
 
     // Implement Interface - onClick(OnClickListener)
     override fun onClick(v: View?) {
-        if (v?.id == R.id.fm_btn_category) {
-            val m_CategoryFragment = CategoryFragment()
-            val m_FragmentManager = fragmentManager as FragmentManager
-            m_FragmentManager
-                .beginTransaction()
-                .replace(R.id.frame_container, m_CategoryFragment, CategoryFragment::class.java.simpleName)
-                .addToBackStack(null)
-                .commit()
+        if (v?.id == R.id.category_fm_btn_lifestyle) {
+
         }
     }
 }
