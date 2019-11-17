@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.fwahyudianto.kexpert.fragment.MainFragmentActivity
 import com.fwahyudianto.kexpert.intent.MainIntentActivity
 import com.fwahyudianto.kexpert.volume.MainVolumeActivity
 
@@ -27,6 +28,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnIntent: Button = findViewById(R.id.main_btn_intent)
         btnIntent.setOnClickListener(this)
+
+        val btnFragment: Button = findViewById(R.id.main_btn_fragment)
+        btnFragment.setOnClickListener(this)
     }
 
     // Implement Interface
@@ -37,8 +41,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(iBarVolume)
             }
             R.id.main_btn_intent -> {
-                val iSimple = Intent(this@MainActivity, MainIntentActivity::class.java)
-                startActivity(iSimple)
+                val iIntent = Intent(this@MainActivity, MainIntentActivity::class.java)
+                startActivity(iIntent)
+            }
+            R.id.main_btn_fragment -> {
+                val iFragment = Intent(this@MainActivity, MainFragmentActivity::class.java)
+                startActivity(iFragment)
             }
         }
     }

@@ -30,7 +30,7 @@ class MainVolumeActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_volume)
-        this.title = "Bar Volume Module"
+        this.title = "Activity Module"
 
         // Set Variable
         etLength = findViewById(R.id.et_length)

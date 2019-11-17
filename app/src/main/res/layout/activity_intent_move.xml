@@ -15,6 +15,6 @@
 						android:id="@+id/tv_moveactivity"
 						android:layout_width="match_parent"
 						android:layout_height="wrap_content"
-						android:text="@string/main_intent_tv_ActivityMove" />
+						android:text="@string/move_intent_tv_result" />
 
 </RelativeLayout>

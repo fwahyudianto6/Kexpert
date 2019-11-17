@@ -1,7 +1,8 @@
 <resources>
-		<string name="app_name">Kexpert</string>
-		<string name="main_btn_volume">Volume - Activity</string>
-		<string name="main_btn_intent">Simple - Intent</string>
+		<string name="app_name">KExpert</string>
+		<string name="main_btn_volume">Activity Module</string>
+		<string name="main_btn_intent">Intent Module</string>
+		<string name="main_btn_fragment">Fragment Module</string>
 		<string name="main_volume_tv_length">Length</string>
 		<string name="main_volume_tv_width">Width</string>
 		<string name="main_volume_tv_height">Height</string>
@@ -12,7 +13,9 @@
 		<string name="main_intent_tv_MoveWithObject">Move Activity With Object</string>
 		<string name="main_intent_tv_DialNumber">Dial a Number</string>
 		<string name="main_intent_tv_MoveWithResult">Move Activity With Result</string>
-		<string name="main_intent_tv_ActivityMove">
+		<string name="main_intent_tv_ActivityDataMove">Data Received</string>
+		<string name="main_intent_tv_ResultFromActivity">Result For Result Activity</string>
+		<string name="move_intent_tv_result">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.
 				Mauris quis ultricies nisi.
 				Sed eget sem vitae nisi lobortis eleifend euismod ac ipsum. Curabitur quis leo placerat, ullamcorper lorem eu,
@@ -21,8 +24,6 @@
 				tempor justo sit amet volutpat.
 				Donec venenatis ex vitae viverra egestas. Etiam ornare diam vel euismod viverra. Cras rutrum auctor libero non
 		</string>
-		<string name="main_intent_tv_ActivityDataMove">Data Received</string>
-		<string name="main_intent_tv_ResultFromActivity">Result For Result Activity</string>
 		<string name="result_intent_tv_choose_number">Choose the number you want</string>
 		<string name="result_intent_tv_50">50</string>
 		<string name="result_intent_tv_100">100</string>
