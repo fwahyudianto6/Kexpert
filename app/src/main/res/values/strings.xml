@@ -1,8 +1,9 @@
 <resources>
 	<string name="app_name">KExpert</string>
-	<string name="main_btn_volume">Activity Module</string>
-	<string name="main_btn_intent">Intent Module</string>
-	<string name="main_btn_fragment">Fragment Module</string>
+	<string name="main_tv_volume">Activity Module</string>
+	<string name="main_tv_intent">Intent Module</string>
+	<string name="main_tv_fragment">Fragment Module</string>
+	<string name="main_tv_list">List Module</string>
 
 	<string name="main_volume_tv_length">Length</string>
 	<string name="main_volume_tv_width">Width</string>
@@ -20,13 +21,15 @@
 
 	<string name="main_fm_tv_Title">Fragment Home</string>
 	<string name="category_fm_tv_Title">Fragment Category</string>
-
 	<string name="main_fm_btn_Category">Category</string>
 	<string name="category_main_fm_btn_PopularBrands">Popular Brands</string>
 	<string name="category_main_fm_btn_KalpaLuxe">Kalpa Luxe</string>
 	<string name="category_main_fm_btn_Lifestyle">Lifestyle</string>
 	<string name="dtl_category_fm_tv_profile">Profile</string>
 	<string name="dtl_category_fm_tv_dialog">Show Dialog</string>
+
+	<string name="main_list_tv_array_adapter">Array Adapter</string>
+	<string name="main_list_tv_custom_adapter">Custom Adapter</string>
 
 	<string name="move_intent_tv_result">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.
@@ -43,7 +46,6 @@
 	<string name="result_intent_tv_150">150</string>
 	<string name="result_intent_tv_200">200</string>
 	<string name="result_intent_tv_choose">Choose</string>
-
 
 	<string name="dialog_fm_tv_question_coach">Who is AC Milan\'s most successful coach?</string>
 	<string name="dialog_fm_tv_helbert_kilpin">Herbert Kilpin</string>

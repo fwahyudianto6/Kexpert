@@ -10,19 +10,25 @@
 
 	<Button
 			android:id="@+id/main_btn_volume"
-			android:text="@string/main_btn_volume"
+			android:text="@string/main_tv_volume"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="@dimen/margin_vertical"/>
 	<Button
 			android:id="@+id/main_btn_intent"
-			android:text="@string/main_btn_intent"
+			android:text="@string/main_tv_intent"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="@dimen/margin_vertical"/>
 	<Button
 			android:id="@+id/main_btn_fragment"
-			android:text="@string/main_btn_fragment"
+			android:text="@string/main_tv_fragment"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"/>
+	<Button
+			android:id="@+id/main_btn_list"
+			android:text="@string/main_tv_list"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="@dimen/margin_vertical"/>

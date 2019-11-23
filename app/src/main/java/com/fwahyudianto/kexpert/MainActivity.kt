@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.Toast
 import com.fwahyudianto.kexpert.fragment.MainFragmentActivity
 import com.fwahyudianto.kexpert.intent.MainIntentActivity
+import com.fwahyudianto.kexpert.list.MainListActivity
 import com.fwahyudianto.kexpert.volume.MainVolumeActivity
 
 /**
@@ -28,13 +29,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
 
         val btnVolume: Button = findViewById(R.id.main_btn_volume)
-        btnVolume.setOnClickListener(this)
-
         val btnIntent: Button = findViewById(R.id.main_btn_intent)
-        btnIntent.setOnClickListener(this)
-
         val btnFragment: Button = findViewById(R.id.main_btn_fragment)
+        val btnList: Button = findViewById(R.id.main_btn_list)
+
+        btnVolume.setOnClickListener(this)
+        btnIntent.setOnClickListener(this)
         btnFragment.setOnClickListener(this)
+        btnList.setOnClickListener(this)
     }
 
     // Method onBackPressed
@@ -64,6 +66,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.main_btn_fragment -> {
                 val iFragment = Intent(this@MainActivity, MainFragmentActivity::class.java)
                 startActivity(iFragment)
+            }
+            R.id.main_btn_list -> {
+                val iList = Intent(this@MainActivity, MainListActivity::class.java)
+                startActivity(iList)
             }
         }
     }
