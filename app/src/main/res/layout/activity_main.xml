@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="@dimen/padding_default"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="@dimen/padding_default"
+		android:orientation="vertical"
+		tools:context=".MainActivity">
 
-        <Button
-                android:id="@+id/main_btn_volume"
-                android:text="@string/main_btn_volume"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_vertical" />
-        <Button
-                android:id="@+id/main_btn_intent"
-                android:text="@string/main_btn_intent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_vertical"/>
-        <Button
-                android:id="@+id/main_btn_fragment"
-                android:text="@string/main_btn_fragment"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_vertical"/>
+	<Button
+			android:id="@+id/main_btn_volume"
+			android:text="@string/main_btn_volume"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"/>
+	<Button
+			android:id="@+id/main_btn_intent"
+			android:text="@string/main_btn_intent"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"/>
+	<Button
+			android:id="@+id/main_btn_fragment"
+			android:text="@string/main_btn_fragment"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"/>
 </LinearLayout>

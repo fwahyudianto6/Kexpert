@@ -38,4 +38,15 @@
 		<string name="result_intent_tv_choose">Choose</string>
 		<string name="dtl_category_fm_tv_profile">Profile</string>
 		<string name="dtl_category_fm_tv_dialog">Show Dialog</string>
+
+		<!-- TODO: Remove or change this placeholder text -->
+		<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="dialog_fm_tv_question_coach">Who is AC Milan\'s most successful coach?</string>
+	<string name="dialog_fm_tv_helbert_kilpin">Herbert Kilpin</string>
+	<string name="dialog_fm_tv_arrigo_sacchi">Arrigo Sacchi</string>
+	<string name="dialog_fm_tv_carlo_ancelotti">Carlo Ancelotti</string>
+	<string name="dialog_fm_tv_fabio_capello">Fabio Capello</string>
+	<string name="dialog_fm_tv_noreo_rocco">Noreo Rocco</string>
+	<string name="dialog_fm_tv_close">Close</string>
+	<string name="dialog_fm_tv_choose">Choose</string>
 </resources>

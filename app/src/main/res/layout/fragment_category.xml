@@ -1,32 +1,33 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical"
-              android:padding="@dimen/padding_default"
-              tools:context=".fragment.CategoryFragment">
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="@dimen/padding_default"
+		tools:context=".fragment.CategoryFragment">
 
-		<TextView
-						android:textSize="25sp" android:textStyle="bold"
-						android:textAlignment="center"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:layout_gravity="center"
-						android:layout_marginBottom="@dimen/padding_default"
-						android:text="@string/category_fm_tv_Title" />
-		<Button
-						android:id="@+id/category_fm_btn_popular_brands"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:text="@string/category_main_fm_btn_PopularBrands" />
-		<Button
-						android:id="@+id/category_fm_btn_kalpa_luxe"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:text="@string/category_main_fm_btn_KalpaLuxe" />
-		<Button
-						android:id="@+id/category_fm_btn_lifestyle"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:text="@string/category_main_fm_btn_Lifestyle" />
+	<TextView
+			android:textSize="25sp" android:textStyle="bold"
+			android:textAlignment="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="@dimen/padding_default"
+			android:text="@string/category_fm_tv_Title"/>
+	<Button
+			android:id="@+id/category_fm_btn_popular_brands"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/category_main_fm_btn_PopularBrands"/>
+	<Button
+			android:id="@+id/category_fm_btn_kalpa_luxe"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/category_main_fm_btn_KalpaLuxe"/>
+	<Button
+			android:id="@+id/category_fm_btn_lifestyle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/category_main_fm_btn_Lifestyle"/>
 </LinearLayout>

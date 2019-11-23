@@ -1,52 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical"
-              android:paddingLeft="@dimen/margin_horizontal"
-              android:paddingTop="@dimen/margin_vertical"
-              android:paddingRight="@dimen/margin_horizontal"
-              android:paddingBottom="@dimen/margin_vertical"
-              tools:context=".intent.MainIntentActivity">
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:paddingLeft="@dimen/margin_horizontal"
+		android:paddingTop="@dimen/margin_vertical"
+		android:paddingRight="@dimen/margin_horizontal"
+		android:paddingBottom="@dimen/margin_vertical"
+		tools:context=".intent.MainIntentActivity">
 
-		<Button
-						android:id="@+id/btn_move_activity"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:layout_marginBottom="@dimen/margin_vertical"
-						android:text="@string/main_intent_tv_Move" />
+	<Button
+			android:id="@+id/btn_move_activity"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"
+			android:text="@string/main_intent_tv_Move"/>
 
-		<Button
-						android:id="@+id/btn_move_activitydata"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:layout_marginBottom="@dimen/margin_vertical"
-						android:text="@string/main_intent_tv_MoveWithData" />
+	<Button
+			android:id="@+id/btn_move_activitydata"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"
+			android:text="@string/main_intent_tv_MoveWithData"/>
 
-		<Button
-						android:id="@+id/btn_moveactivityobject"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:layout_marginBottom="@dimen/margin_vertical"
-						android:text="@string/main_intent_tv_MoveWithObject" />
-		<Button
-						android:id="@+id/btn_dialnumber"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:layout_marginBottom="@dimen/margin_vertical"
-						android:text="@string/main_intent_tv_DialNumber" />
-		<Button
-						android:id="@+id/btn_moveresult"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:layout_marginBottom="@dimen/margin_vertical"
-						android:text="@string/main_intent_tv_MoveWithResult" />
-		<TextView
-						android:id="@+id/tv_result"
-						android:textSize="24sp"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"
-						android:gravity="center"
-						android:text="@string/main_intent_tv_ResultFromActivity"/>
+	<Button
+			android:id="@+id/btn_moveactivityobject"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"
+			android:text="@string/main_intent_tv_MoveWithObject"/>
+	<Button
+			android:id="@+id/btn_dialnumber"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"
+			android:text="@string/main_intent_tv_DialNumber"/>
+	<Button
+			android:id="@+id/btn_moveresult"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"
+			android:text="@string/main_intent_tv_MoveWithResult"/>
+	<TextView
+			android:id="@+id/tv_result"
+			android:textSize="24sp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="@string/main_intent_tv_ResultFromActivity"/>
 </LinearLayout>

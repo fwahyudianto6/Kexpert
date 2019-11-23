@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 
 import com.fwahyudianto.kexpert.R
 
@@ -59,7 +60,9 @@ class DetailCategoryFragment : Fragment(), View.OnClickListener {
 
             }
             R.id.dtl_category_fm_btn_dialog -> {
-
+                val m_OptionDialogFragment = OptionDialogFragment()
+                val m_FragmentManager = childFragmentManager
+                m_OptionDialogFragment.show(m_FragmentManager, OptionDialogFragment::class.java.simpleName)
             }
         }
     }
@@ -77,6 +80,12 @@ class DetailCategoryFragment : Fragment(), View.OnClickListener {
             val alCategoryName = arguments?.getString(STR_EXTRA_NAME)
             tvDetailCategoryName.text = alCategoryName
             tvDetailCategoryDescription.text = strDescription
+        }
+    }
+
+    internal var optionDialogListener: OptionDialogFragment.OnOptionDialogListener = object : OptionDialogFragment.OnOptionDialogListener {
+        override fun onOptionChosen(text: String?) {
+            Toast.makeText(activity, text, Toast.LENGTH_SHORT).show()
         }
     }
 }
