@@ -1,5 +1,6 @@
 package com.fwahyudianto.kexpert.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
@@ -44,7 +45,7 @@ class DetailCategoryFragment : Fragment(), View.OnClickListener {
     // Implement Interface - onViewCreated(Fragment)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        tvDetailCategoryName = view.findViewById(R.id.dtl_category_fm_tv_category_name)
+        tvDetailCategoryName = view.findViewById(R.id.dtl_category_fm_tv_category_title)
         tvDetailCategoryDescription = view.findViewById(R.id.dtl_category_fm_tv_category_description)
         btnProfile = view.findViewById(R.id.dtl_category_fm_btn_profile)
         btnDialog = view.findViewById(R.id.dtl_category_fm_btn_dialog)
@@ -57,7 +58,9 @@ class DetailCategoryFragment : Fragment(), View.OnClickListener {
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.dtl_category_fm_btn_profile -> {
-
+                val iDetailProfile = Intent(activity, ProfileActivity::class.java)
+                iDetailProfile.putExtra(ProfileActivity.STR_PROFILE_NAME, tvDetailCategoryName.text)
+                startActivity(iDetailProfile)
             }
             R.id.dtl_category_fm_btn_dialog -> {
                 val m_OptionDialogFragment = OptionDialogFragment()
@@ -83,9 +86,10 @@ class DetailCategoryFragment : Fragment(), View.OnClickListener {
         }
     }
 
-    internal var optionDialogListener: OptionDialogFragment.OnOptionDialogListener = object : OptionDialogFragment.OnOptionDialogListener {
-        override fun onOptionChosen(text: String?) {
-            Toast.makeText(activity, text, Toast.LENGTH_SHORT).show()
+    internal var optionDialogListener: OptionDialogFragment.OnOptionDialogListener =
+        object : OptionDialogFragment.OnOptionDialogListener {
+            override fun onOptionChosen(text: String?) {
+                Toast.makeText(activity, text, Toast.LENGTH_SHORT).show()
+            }
         }
-    }
 }

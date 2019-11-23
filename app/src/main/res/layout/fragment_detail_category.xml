@@ -9,7 +9,7 @@
 		tools:context=".fragment.DetailCategoryFragment">
 
 	<TextView
-			android:id="@+id/dtl_category_fm_tv_category_name"
+			android:id="@+id/dtl_category_fm_tv_category_title"
 			android:textSize="17sp" android:textStyle="bold"
 			android:textAlignment="center"
 			android:layout_width="match_parent"

@@ -1,52 +1,56 @@
 <resources>
-		<string name="app_name">KExpert</string>
-		<string name="main_btn_volume">Activity Module</string>
-		<string name="main_btn_intent">Intent Module</string>
-		<string name="main_btn_fragment">Fragment Module</string>
-		<string name="main_volume_tv_length">Length</string>
-		<string name="main_volume_tv_width">Width</string>
-		<string name="main_volume_tv_height">Height</string>
-		<string name="main_volume_btn_calculate">Calculate</string>
-		<string name="main_volume_tv_result">Result</string>
-		<string name="main_intent_tv_Move">Move Activity</string>
-		<string name="main_intent_tv_MoveWithData">Move Activity With Data</string>
-		<string name="main_intent_tv_MoveWithObject">Move Activity With Object</string>
-		<string name="main_intent_tv_DialNumber">Dial a Number</string>
-		<string name="main_intent_tv_MoveWithResult">Move Activity With Result</string>
-		<string name="main_intent_tv_ActivityDataMove">Data Received</string>
-		<string name="main_intent_tv_ResultFromActivity">Result For Result Activity</string>
-		<string name="main_fm_tv_Title">Fragment Home</string>
-		<string name="category_fm_tv_Title">Fragment Category</string>
-		<string name="main_fm_btn_Category">Category</string>
-		<string name="category_main_fm_btn_PopularBrands">Popular Brands</string>
-		<string name="category_main_fm_btn_KalpaLuxe">Kalpa Luxe</string>
-		<string name="category_main_fm_btn_Lifestyle">Lifestyle</string>
-		<string name="move_intent_tv_result">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.
-				Mauris quis ultricies nisi.
-				Sed eget sem vitae nisi lobortis eleifend euismod ac ipsum. Curabitur quis leo placerat, ullamcorper lorem eu,
-				iaculis sapien.
-				Donec nec venenatis velit, tincidunt volutpat leo. Nullam vel luctus felis, commodo dignissim turpis. Ut gravida
-				tempor justo sit amet volutpat.
-				Donec venenatis ex vitae viverra egestas. Etiam ornare diam vel euismod viverra. Cras rutrum auctor libero non
-		</string>
-		<string name="result_intent_tv_choose_number">Choose the number you want</string>
-		<string name="result_intent_tv_50">50</string>
-		<string name="result_intent_tv_100">100</string>
-		<string name="result_intent_tv_150">150</string>
-		<string name="result_intent_tv_200">200</string>
-		<string name="result_intent_tv_choose">Choose</string>
-		<string name="dtl_category_fm_tv_profile">Profile</string>
-		<string name="dtl_category_fm_tv_dialog">Show Dialog</string>
+	<string name="app_name">KExpert</string>
+	<string name="main_btn_volume">Activity Module</string>
+	<string name="main_btn_intent">Intent Module</string>
+	<string name="main_btn_fragment">Fragment Module</string>
 
-		<!-- TODO: Remove or change this placeholder text -->
-		<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="main_volume_tv_length">Length</string>
+	<string name="main_volume_tv_width">Width</string>
+	<string name="main_volume_tv_height">Height</string>
+	<string name="main_volume_btn_calculate">Calculate</string>
+	<string name="main_volume_tv_result">Result</string>
+
+	<string name="main_intent_tv_Move">Move Activity</string>
+	<string name="main_intent_tv_MoveWithData">Move Activity With Data</string>
+	<string name="main_intent_tv_MoveWithObject">Move Activity With Object</string>
+	<string name="main_intent_tv_DialNumber">Dial a Number</string>
+	<string name="main_intent_tv_MoveWithResult">Move Activity With Result</string>
+	<string name="main_intent_tv_ActivityDataMove">Data Received</string>
+	<string name="main_intent_tv_ResultFromActivity">Result For Result Activity</string>
+
+	<string name="main_fm_tv_Title">Fragment Home</string>
+	<string name="category_fm_tv_Title">Fragment Category</string>
+
+	<string name="main_fm_btn_Category">Category</string>
+	<string name="category_main_fm_btn_PopularBrands">Popular Brands</string>
+	<string name="category_main_fm_btn_KalpaLuxe">Kalpa Luxe</string>
+	<string name="category_main_fm_btn_Lifestyle">Lifestyle</string>
+	<string name="dtl_category_fm_tv_profile">Profile</string>
+	<string name="dtl_category_fm_tv_dialog">Show Dialog</string>
+
+	<string name="move_intent_tv_result">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.
+		Mauris quis ultricies nisi.
+		Sed eget sem vitae nisi lobortis eleifend euismod ac ipsum. Curabitur quis leo placerat, ullamcorper lorem eu,
+		iaculis sapien.
+		Donec nec venenatis velit, tincidunt volutpat leo. Nullam vel luctus felis, commodo dignissim turpis. Ut gravida
+		tempor justo sit amet volutpat.
+		Donec venenatis ex vitae viverra egestas. Etiam ornare diam vel euismod viverra. Cras rutrum auctor libero non
+	</string>
+	<string name="result_intent_tv_choose_number">Choose the number you want</string>
+	<string name="result_intent_tv_50">50</string>
+	<string name="result_intent_tv_100">100</string>
+	<string name="result_intent_tv_150">150</string>
+	<string name="result_intent_tv_200">200</string>
+	<string name="result_intent_tv_choose">Choose</string>
+
+
 	<string name="dialog_fm_tv_question_coach">Who is AC Milan\'s most successful coach?</string>
 	<string name="dialog_fm_tv_helbert_kilpin">Herbert Kilpin</string>
 	<string name="dialog_fm_tv_arrigo_sacchi">Arrigo Sacchi</string>
 	<string name="dialog_fm_tv_carlo_ancelotti">Carlo Ancelotti</string>
 	<string name="dialog_fm_tv_fabio_capello">Fabio Capello</string>
 	<string name="dialog_fm_tv_noreo_rocco">Noreo Rocco</string>
-	<string name="dialog_fm_tv_close">Close</string>
 	<string name="dialog_fm_tv_choose">Choose</string>
+	<string name="dialog_fm_tv_close">Close</string>
 </resources>

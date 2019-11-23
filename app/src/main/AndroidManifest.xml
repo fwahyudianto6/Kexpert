@@ -10,6 +10,7 @@
 			android:roundIcon="@mipmap/ic_launcher_round"
 			android:supportsRtl="true"
 			android:theme="@style/AppTheme">
+		<activity android:name=".fragment.ProfileActivity"/> <!-- Automation register by Android Studio -->
 		<activity android:name=".fragment.MainFragmentActivity"/> <!-- Automation register by Android Studio -->
 		<activity android:name=".intent.IntentMoveResultActivity"/> <!-- Automation register by Android Studio -->
 		<activity android:name=".intent.IntentMoveObjectActivity"/> <!-- Automation register by Android Studio -->
@@ -20,6 +21,7 @@
 		<activity android:name=".MainActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN"/>
+
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
