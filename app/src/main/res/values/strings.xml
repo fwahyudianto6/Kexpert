@@ -18,6 +18,8 @@
 		<string name="main_fm_tv_Title">Fragment Home</string>
 		<string name="category_fm_tv_Title">Fragment Category</string>
 		<string name="main_fm_btn_Category">Category</string>
+		<string name="category_main_fm_btn_PopularBrands">Popular Brands</string>
+		<string name="category_main_fm_btn_KalpaLuxe">Kalpa Luxe</string>
 		<string name="category_main_fm_btn_Lifestyle">Lifestyle</string>
 		<string name="move_intent_tv_result">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.
@@ -34,4 +36,6 @@
 		<string name="result_intent_tv_150">150</string>
 		<string name="result_intent_tv_200">200</string>
 		<string name="result_intent_tv_choose">Choose</string>
+		<string name="dtl_category_fm_tv_profile">Profile</string>
+		<string name="dtl_category_fm_tv_dialog">Show Dialog</string>
 </resources>
