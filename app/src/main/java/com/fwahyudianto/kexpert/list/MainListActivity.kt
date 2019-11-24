@@ -22,7 +22,10 @@ class MainListActivity : AppCompatActivity(), View.OnClickListener {
         this.title = "List Module"
 
         val btnArray: Button = findViewById(R.id.main_list_btn_array_adapter)
+        val btnCustom: Button = findViewById(R.id.main_list_btn_custom_adapter)
+
         btnArray.setOnClickListener(this)
+        btnCustom.setOnClickListener(this)
     }
 
     // Implement Interface - onClick(OnClickListener)
@@ -31,6 +34,10 @@ class MainListActivity : AppCompatActivity(), View.OnClickListener {
             R.id.main_list_btn_array_adapter -> {
                 val iArray = Intent(this@MainListActivity, ListArrayAdapterActivity::class.java)
                 startActivity(iArray)
+            }
+            R.id.main_list_btn_custom_adapter -> {
+                val iCustom = Intent(this@MainListActivity, ListCustomAdapterActivity::class.java)
+                startActivity(iCustom)
             }
         }
     }
