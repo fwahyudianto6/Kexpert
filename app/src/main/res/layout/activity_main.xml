@@ -32,4 +32,10 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="@dimen/margin_vertical"/>
+	<Button
+			android:id="@+id/main_btn_debugging"
+			android:text="@string/main_tv_debugging"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"/>
 </LinearLayout>

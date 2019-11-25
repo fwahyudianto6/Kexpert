@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:paddingLeft="@dimen/margin_horizontal"
+		android:paddingTop="@dimen/margin_vertical"
+		android:paddingRight="@dimen/margin_horizontal"
+		android:paddingBottom="@dimen/margin_vertical"
+		tools:context=".debugging.MainDebuggingActivity">
+
+	<Button
+			android:id="@+id/main_debugging_btn_debug_alpha"
+			android:text="@string/main_debugging_tv_debug_alpha"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/margin_vertical"/>
+</LinearLayout>

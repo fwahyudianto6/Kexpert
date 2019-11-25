@@ -9,7 +9,8 @@
 			android:roundIcon="@mipmap/ic_launcher_round"
 			android:supportsRtl="true"
 			android:theme="@style/AppTheme">
-		<activity android:name=".list.ListCustomAdapterActivity"/><!-- Automation register by Android Studio -->
+		<activity android:name=".debugging.MainDebuggingActivity"/><!-- Automation register by Android Studio -->
+		<activity android:name=".list.ListCustomAdapterActivity"/> <!-- Automation register by Android Studio -->
 		<activity android:name=".list.ListArrayAdapterActivity"/> <!-- Automation register by Android Studio -->
 		<activity android:name=".list.MainListActivity"/> <!-- Automation register by Android Studio -->
 		<activity android:name=".fragment.ProfileActivity"/> <!-- Automation register by Android Studio -->

@@ -4,6 +4,7 @@
 	<string name="main_tv_intent">Intent Module</string>
 	<string name="main_tv_fragment">Fragment Module</string>
 	<string name="main_tv_list">List Module</string>
+	<string name="main_tv_debugging">Debugging Module</string>
 
 	<string name="main_volume_tv_length">Length</string>
 	<string name="main_volume_tv_width">Width</string>
@@ -31,6 +32,8 @@
 	<string name="main_list_tv_array_adapter">Array Adapter</string>
 	<string name="main_list_tv_custom_adapter">Custom Adapter</string>
 
+	<string name="main_debugging_tv_debug_alpha">Debug #1</string>
+
 	<string name="move_intent_tv_result">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.
 		Mauris quis ultricies nisi.
@@ -57,9 +60,11 @@
 	<string name="dialog_fm_tv_close">Close</string>
 
 	<string name="custom_list_tv_player_name">Player Name</string>
-	<string name="custom_list_tv_player_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum
+	<string name="custom_list_tv_player_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+		dictum
 		scelerisque mi pellentesque dignissim.
 	</string>
+
 	<string-array name="data_playar_name">
 		<item>GK - Dida</item>
 		<item>CB - Nesta</item>

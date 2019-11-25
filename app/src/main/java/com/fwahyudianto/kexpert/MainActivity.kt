@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import com.fwahyudianto.kexpert.debugging.MainDebuggingActivity
 import com.fwahyudianto.kexpert.fragment.MainFragmentActivity
 import com.fwahyudianto.kexpert.intent.MainIntentActivity
 import com.fwahyudianto.kexpert.list.MainListActivity
@@ -32,11 +33,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val btnIntent: Button = findViewById(R.id.main_btn_intent)
         val btnFragment: Button = findViewById(R.id.main_btn_fragment)
         val btnList: Button = findViewById(R.id.main_btn_list)
+        val bntDebug: Button = findViewById(R.id.main_btn_debugging)
 
         btnVolume.setOnClickListener(this)
         btnIntent.setOnClickListener(this)
         btnFragment.setOnClickListener(this)
         btnList.setOnClickListener(this)
+        bntDebug.setOnClickListener(this)
     }
 
     // Method onBackPressed
@@ -70,6 +73,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.main_btn_list -> {
                 val iList = Intent(this@MainActivity, MainListActivity::class.java)
                 startActivity(iList)
+            }
+            R.id.main_btn_debugging -> {
+                val iDebug = Intent(this@MainActivity, MainDebuggingActivity::class.java)
+                startActivity(iDebug)
             }
         }
     }
