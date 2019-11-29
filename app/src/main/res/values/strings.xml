@@ -33,6 +33,8 @@
 	<string name="main_list_tv_custom_adapter">Custom Adapter</string>
 
 	<string name="main_debugging_tv_debug_alpha">Debug #1</string>
+	<string name="alpha_dbg_tv_result">Result</string>
+	<string name="alpha_dbg_tv_set_value">Set Value</string>
 
 	<string name="move_intent_tv_result">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum scelerisque mi pellentesque dignissim.

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:paddingLeft="@dimen/margin_horizontal"
+		android:paddingTop="@dimen/margin_vertical"
+		android:paddingRight="@dimen/margin_horizontal"
+		android:paddingBottom="@dimen/margin_vertical"
+		tools:context=".debugging.DebuggingAlphaActivity">
+
+	<TextView
+			android:id="@+id/alpha_dbg_tv_result"
+			android:text="@string/alpha_dbg_tv_result"
+			android:textSize="20sp" android:textStyle="bold"
+			android:textAlignment="center"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"/>
+	<Button
+			android:id="@+id/alpha_dbg_btn_set_value"
+			android:text="@string/alpha_dbg_tv_set_value"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/alpha_dbg_tv_result"/>
+
+	<ImageView
+			android:id="@+id/alpha_dbg_img_preview"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/alpha_dbg_btn_set_value"/>
+</RelativeLayout>
